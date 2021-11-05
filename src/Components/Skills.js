@@ -5,10 +5,10 @@ import Title from '../Components/Title';
 import Button1 from './Button1';
 
 
-const front = ["HTML","CSS","JAVASCRIPT","REACT","REDUX","MATERIAL-UI"]
-const  back = ["NODEJS","EXPRESS","MONGODB"]
-const tech = ["VSCODE","POSTMAN","GITHUB"]
-const soft = ["TEAM PLAYER","Good Communication","Work Ethics","Creative"]
+const front = ["HTML","CSS","JAVASCRIPT","REACT","BOOTSTRAP"]
+const  back = ["NODEJS","EXPRESS","MONGODB","REDIS"]
+const tech = ["VSCODE","POSTMAN","GITHUB","MONGODB-ATLAS"]
+const soft = ["TEAM PLAYER","POSITIVE ATTITUDE","WORK ETHICS","CREATIVE"]
 function Skills() {
     return (
         <SkillsStyled>

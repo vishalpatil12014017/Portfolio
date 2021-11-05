@@ -14,24 +14,12 @@ function Resume() {
     <ResumeStyled>
       <Title title={"Resume"} span={"resume"} />
       <InnerLayout>
-        <div className="small-title">
-          <SmallTitle icon={briefcase} title={"Interships"} />
-        </div>
-        <div className="resume-content">
-          <ResumeItem
-            year={"July, 2017 - Aug,2017"}
-            title={"NTPC, Nabinagar"}
-            text={
-              'Successfully completed the internship in this factory on the subject "Cooling Tower working" with period of 3 months.'
-            }
-          />
-        </div>
         <div className="small-title u-small-title-margin">
           <SmallTitle icon={school} title={"Educational Qualifications"} />
         </div>
         <div className="resume-content ">
           <ResumeItem
-            year={"March, 2021 - Present"}
+            year={"June, 2021 - Present"}
             title={"Full Stack Developer"}
             subTitle={"Masai School, Banglore"}
             text={
@@ -39,20 +27,28 @@ function Resume() {
             }
           />
           <ResumeItem
-            year={"2014 - 2018"}
+            year={"2018 - 2021"}
             title={"Mechanical Engineering"}
-            subTitle={"KCCITM, Greater Noida"}
+            subTitle={"Dr Babasaheb Ambedkar Technological University, Maharashtra"}
             text={
-              "Got 75% through out the semester. Always active in project cirriculum."
+              "Got 85% through out the semester. Always active in Extra cirriculum."
             }
           />
           <ResumeItem
-            year={"2012 - 2014"}
-            title={"High School Graduation"}
-            subTitle={"GGPS, Bokaro"}
+            year={"2015 - 2018"}
+            title={"Diploma"}
+            subTitle={"Government Polytechnic,Miraj. Maharashtra"}
             text={
-              ""
+              "Got 85% in final year. Always active in Extra cirriculum activities."
             }
+            />
+            <ResumeItem
+              year={"2015"}
+              title={"High School"}
+              subTitle={"Pai. Vishnu nagrale, vidyamandir nagrale. Mahashtra "}
+              text={
+                "Got 88% in 10th."
+              }
           />
         </div>
       </InnerLayout>

@@ -34,7 +34,8 @@ function ImageSection() {
           career as a web developer with a reputed firm driven by technology.
         </p>
         <div className="about-info"></div>
-        <PrimaryButton title={"Download Resume"} />
+        <PrimaryButton  title={"Download Resume"} resu={"/Vishal Patil.pdf"}> </PrimaryButton>
+        
       </div>
     </ImageSectionStyled>
   );

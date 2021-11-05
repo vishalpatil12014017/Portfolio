@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function PrimaryButton({title}) {
+function PrimaryButton({title,resu}) {
     return (
-        <PrimaryButtonStyled href="/Vishal Patil.pdf" download>
+        <PrimaryButtonStyled href={resu} download>
             {title}
         </PrimaryButtonStyled>
     )

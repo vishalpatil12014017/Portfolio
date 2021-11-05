@@ -59,14 +59,14 @@ function ContactPage() {
                             <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
                         </div>
                         <div className="form-field f-button">
-                            <PrimaryButton title={'Send Email'} />
+                            <PrimaryButton title={'Send Email'}/>
                         </div>
                     </form>
                 </div>
                 <div className="right-content">
-                    <ContactItem title={'Phone'} icon={phone} cont1={'+91-7992245309'} />
-                    <ContactItem title={'Email'} icon={email} cont1={'sabhisheksingh6@gmail.com'} />
-                    <ContactItem title={'Address'} icon={location} cont1={'Mission Road, Aurangabad, Bihar'} cont2={'India'} />
+                    <ContactItem title={'Phone'} icon={phone} cont1={'+91-9168120140'} />
+                    <ContactItem title={'Email'} icon={email} cont1={'patil120140@gmail.com'} />
+                    <ContactItem title={'Address'} icon={location} cont1={'Sangli,Maharashtra'} cont2={'India'} />
                     
                 </div>
             </InnerLayout>
