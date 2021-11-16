@@ -55,13 +55,13 @@ function HomePage({theme}) {
           It's Nice To Meet You. I Design And Code Beautifully And I Love What I Do.
           </p>
           <div className="icons">
-            <a href="https://www.linkedin.com/in/abhishek-kumar-singh-25b780119/" className="icon i-linked"
+            <a href="https://www.linkedin.com/in/vishal-patil17/" className="icon i-linked"
             target="_blank"
             rel="noopener noreferrer"
             >
              <LinkedInIcon/>
             </a>
-            <a href="https://github.com/singhabhishek6" className="icon i-github"
+            <a href="https://github.com/vishalpatil12014017" className="icon i-github"
             target="_blank"
             rel="noopener noreferrer"
             >
