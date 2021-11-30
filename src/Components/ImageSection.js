@@ -1,7 +1,7 @@
 import { init } from "ityped";
 import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
-import resume from "../img/resume.jpg";
+import resume from "../img/resume.png";
 import PrimaryButton from "./PrimaryButton";
 import "../App.css"
 function ImageSection() {
@@ -17,11 +17,7 @@ function ImageSection() {
   },[])
   return (
     <ImageSectionStyled>
-      <div className="left-content">
-        <div className="btn">
-        <img src={resume} alt="" />
-        </div>
-      </div>
+     
       <div className="right-content">
         <h4>
           I am <span ref={infoo}></span>
@@ -50,16 +46,8 @@ const ImageSectionStyled = styled.div`
       margin-bottom: 2rem;
     }
   }
-  .left-content {
-    width: 85%;
-    img {
-      width: 100%;
-
-      object-fit: cover;
-    }
-  }
   .right-content {
-    width: 100%;
+    width: 90%;
     h4 {
       font-size: 2rem;
       color: var(--white-color);

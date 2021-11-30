@@ -1,4 +1,4 @@
-import Traveltech from  '../img/blogs/blck logo.png';
+import Traveltech from  '../img/blogs/Traveltech.png';
 import zoomcar from  '../img/blogs/zoomcar.png';
 
 const blogs = [

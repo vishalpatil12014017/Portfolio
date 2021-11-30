@@ -20,7 +20,7 @@ function ContactItem({title, icon, cont1, cont2}) {
 }
 
 const ContactItemStyled = styled.div`
-    padding:1.5rem 0.5rem;
+    padding:.7rem 0.5rem;
 
     background-color: var(--background-dark-grey);
     display: flex;
@@ -37,15 +37,15 @@ const ContactItemStyled = styled.div`
         justify-content: center;
         margin-right: 1.5rem;
         svg{
-            font-size: 2.3rem;
+            font-size: 2.0rem;
         }
     }
     
     .right-content{
         h6{
             color: var(--white-color);
-            font-size: 1.2rem;
-            padding-bottom: .6rem;
+            font-size: 1.0rem;
+            padding-bottom: .2rem;
         }
         p{
             padding: .1rem 0;

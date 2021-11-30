@@ -5,7 +5,7 @@ import Title from '../Components/Title';
 import {MainLayout} from '../styles/Layouts';
 import ServicesSection from '../Components/ServicesSection';
 import { motion } from "framer-motion";
-
+import Resume from '../Components/Resume';
 const containerVariants = {
     hidden: {
         opacity: 0,
@@ -21,6 +21,7 @@ const containerVariants = {
 }
 function AboutPage() {
     return (
+      <>
         <motion.div
         variants={containerVariants}
         initial="hidden"
@@ -34,8 +35,11 @@ function AboutPage() {
                 <ServicesSection />
             
             </AboutStyled >
+               <Resume />
         </MainLayout>
         </motion.div>
+      
+      </>
     )
 }
 

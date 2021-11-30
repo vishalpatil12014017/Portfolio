@@ -59,57 +59,7 @@ function App() {
   return (
     <>
    {loading && <><div className="hold">
-    <div class="hexagon" aria-label="Animated hexagonal ripples">
-	<div class="hexagon__group">
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-	</div>
-	<div class="hexagon__group">
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-	</div>
-	<div class="hexagon__group">
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-	</div>
-	<div class="hexagon__group">
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-	</div>
-	<div class="hexagon__group">
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-	</div>
-	<div class="hexagon__group">
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-		<div class="hexagon__sector"></div>
-	</div>
-</div>
-<p aria-label="Loading">Welcome To My Portfolio..</p>
+<p aria-label="Loading">Welcome To My Portfolio...</p>
 </div>
    </>
    }
@@ -123,7 +73,6 @@ function App() {
         setTheme(`${theme.split(" ")[0]}`)
       }}></span>
     </div>
-
     <div className="App">
         <Sidebar navToggle={navToggle} setNavToggle={setNavToggle}/>
 

@@ -35,6 +35,7 @@ function Menu({ menuItem }) {
               </div>
               <h6>{item.title}</h6>
               <p>{item.text}</p>
+              <p style={{paddingTop:"10px"}}> <strong style={{color:"white"}}>Tech Stack</strong>{item.text1}</p>
             </div>
           </div>
         );
@@ -62,6 +63,12 @@ const MenuItemStyled = styled.div`
       border-radius: 10px;
       overflow: hidden;
       border: 2px solid  var(--primary-color);;
+      p{
+        text-align:start;
+        padding:10px;
+        padding-left:13px;
+        font-size:1.2vw
+      }
       h6 {
         font-size: 1.5rem;
       }

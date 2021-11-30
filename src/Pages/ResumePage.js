@@ -1,7 +1,6 @@
 import React from "react";
 import Skills from "../Components/Skills";
 import { MainLayout } from "../styles/Layouts";
-import Resume from "../Components/Resume";
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -27,7 +26,6 @@ function ResumePage() {
     >
       <MainLayout>
         <Skills />
-        <Resume />
       </MainLayout>
     </motion.div>
   );

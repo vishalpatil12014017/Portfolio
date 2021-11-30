@@ -12,11 +12,9 @@ function Resume() {
   const school = <SchoolIcon />;
   return (
     <ResumeStyled>
-      <Title title={"Resume"} span={"resume"} />
+      <Title icon={school} icon={school} title={"Educational"} span={"Qualifications"} />
       <InnerLayout>
-        <div className="small-title u-small-title-margin">
-          <SmallTitle icon={school} title={"Educational Qualifications"} />
-        </div>
+       
         <div className="resume-content ">
           <ResumeItem
             year={"June, 2021 - Present"}

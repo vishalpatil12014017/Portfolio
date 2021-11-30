@@ -89,7 +89,7 @@ function Navigation({ setNavToggle }) {
           className="nav-item"
         >
           <NavLink to="/resume" activeClassName="active-class" exact>
-            Resume
+            Skills
             <div className={`arrowAnim ${nav3?"sh":""}`}>
               <div className="arrowSliding">
                 <div className="arrow"></div>

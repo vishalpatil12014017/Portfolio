@@ -67,7 +67,7 @@ const TitleStyled = styled.div`
         span{
             font-weight: 900;
             color: var(--background-light-color-2);
-            font-size: 5rem;
+            font-size: 4.5rem;
             position: absolute;
             left: 0;
             top: 30%;

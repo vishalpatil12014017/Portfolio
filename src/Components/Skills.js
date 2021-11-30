@@ -5,7 +5,7 @@ import Title from '../Components/Title';
 import Button1 from './Button1';
 
 
-const front = ["HTML","CSS","JAVASCRIPT","REACT","BOOTSTRAP"]
+const front = ["HTML","CSS","JAVASCRIPT","REACT","BOOTSTRAP","REDUX"]
 const  back = ["NODEJS","EXPRESS","MONGODB","REDIS"]
 const tech = ["VSCODE","POSTMAN","GITHUB","MONGODB-ATLAS"]
 const soft = ["TEAM PLAYER","POSITIVE ATTITUDE","WORK ETHICS","CREATIVE"]
