@@ -3,35 +3,43 @@ import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
 import resume from "../img/resume.png";
 import PrimaryButton from "./PrimaryButton";
-import "../App.css"
+import "../App.css";
 function ImageSection() {
   const infoo = useRef();
   useEffect(() => {
     init(infoo.current, {
       showCursor: false,
-      backSpeed:  100,
+      backSpeed: 100,
       startDelay: 500,
-      backDelay:800,
-      strings: ["Vishal Sudam Patil","A Web Developer", "A Problem Solver"],
+      backDelay: 800,
+      strings: ["Vishal Sudam Patil", "A Web Developer", "A Problem Solver"],
     });
-  },[])
+  }, []);
   return (
     <ImageSectionStyled>
-     
       <div className="right-content">
         <h4>
           I am <span ref={infoo}></span>
         </h4>
         <p className="paragraph">
-          I am Web Devloper. Strong in design and integration with intuitive
-          problem-solving skills. Proficient in React, Javascript. Passionate
-          about implementing and launching new projects. Ability to translate
-          business requirements into technical solutions. Looking to start the
-          career as a web developer with a reputed firm driven by technology.
+        {"  "}As a MERN stack developer with over 1 year of experience, I have a
+          strong foundation in building robust web applications using MySQL,MongoDB,
+          Express, React, and Node.js. I possess expertise in developing
+          responsive and user-friendly front-end interfaces, designing and
+          developing scalable back-end architectures, and implementing RESTful
+          APIs to provide seamless communication between the client and server.{" "}
+        </p>
+        <p className="paragraph">
+          {"  "}I am a highly motivated individual with excellent problem-solving
+          skills, and I am always eager to learn and adapt to new technologies
+          and tools. I am confident in my ability to contribute to any
+          development team and thrive in a fast-paced and dynamic work
+          environment.
         </p>
         <div className="about-info"></div>
-        <PrimaryButton  title={"Download Resume"} resu={"/Vishal Patil.pdf"}> </PrimaryButton>
-        
+        <PrimaryButton title={"Download Resume"} resu={"/Vishal Patil.pdf"}>
+          {" "}
+        </PrimaryButton>
       </div>
     </ImageSectionStyled>
   );

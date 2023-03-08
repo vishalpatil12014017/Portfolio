@@ -109,7 +109,7 @@ function ContactPage() {
                             </form>
                         </div>
                         <div className="right-content" style={{ maxHeight: "30%" }}>
-                            <ContactItem title={'Phone'} icon={phone} cont1={'+91-9168120140'} />
+                            <ContactItem title={'Phone'} icon={phone} cont1={'+91-7972318018'} />
                             <ContactItem title={'Email'} icon={email1} cont1={'patil120140@gmail.com'} />
                             <ContactItem title={'Address'} icon={location} cont1={'Sangli,Maharashtra'} cont2={'India'} />
                             <a href="https://www.linkedin.com/in/vishal-patil17/" target="_blank" style={{ marginBottom: "10%" }}><ContactItem title={'LinkedIn'} icon={Linked} cont1={'vishal-patil17'} /> </a>

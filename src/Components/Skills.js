@@ -5,10 +5,10 @@ import Title from '../Components/Title';
 import Button1 from './Button1';
 
 
-const front = ["HTML","CSS","JAVASCRIPT","REACT","BOOTSTRAP","REDUX"]
-const  back = ["NODEJS","EXPRESS","MONGODB","REDIS"]
-const tech = ["VSCODE","POSTMAN","GITHUB","MONGODB-ATLAS"]
-const soft = ["TEAM PLAYER","POSITIVE ATTITUDE","WORK ETHICS","CREATIVE"]
+const front = ["HTML5","CSS","JavaScript","React.js","Redux","React Native","Bootstrap","Telwind","MUI"]
+const  back = ["Node.js","Express.js","Mongo DB","Redis","MySQL","Amazon EC2","Amazon S3","Microservices","Linux","TypeScript","Nginx","FCM","Zoho CRM","SQL","JSON Web Token (JWT)"]
+const tech = ["VS Code","Postman","Github","MongoDB-Atlas","Jira","MySQL-Workbench"]
+const soft = ["Team Player","Positive Attitude","Work Ethics","Creative"]
 function Skills() {
     return (
         <SkillsStyled>
@@ -30,7 +30,7 @@ function Skills() {
 const SkillsStyled = styled.section`
     .skills{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 2rem;
         grid-column-gap: 1rem;
         @media screen and (max-width: 700px){

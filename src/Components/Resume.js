@@ -16,14 +16,7 @@ function Resume() {
       <InnerLayout>
        
         <div className="resume-content ">
-          <ResumeItem
-            year={"June, 2021 - Present"}
-            title={"Full Stack Developer"}
-            subTitle={"Masai School, Banglore"}
-            text={
-              "Learning Full Stack Developement and Communication skills. "
-            }
-          />
+         
           <ResumeItem
             year={"2018 - 2021"}
             title={"Mechanical Engineering"}

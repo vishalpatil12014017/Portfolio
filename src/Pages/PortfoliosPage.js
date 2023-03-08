@@ -6,7 +6,7 @@ import Menu from '../Components/Menu';
 import Button from '../Components/Button';
 import { motion } from 'framer-motion';
 
-const allButtons = ['All', ...new Set(portfolios.map(item => item.category))]
+const allButtons = [ ...new Set(portfolios.map(item => item.category))]
 const containerVariants = {
     hidden: {
         opacity: 0,

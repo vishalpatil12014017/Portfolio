@@ -22,7 +22,7 @@ function Menu({ menuItem }) {
                       <GitHub />
                     </a>
                   </li>
-                  <li>
+                  <li style={item.link2?null:{display:"none"}}>
                     <a
                       href={item.link2}
                       target="_blank"
@@ -34,8 +34,8 @@ function Menu({ menuItem }) {
                 </ul>
               </div>
               <h6>{item.title}</h6>
-              <p>{item.text}</p>
-              <p style={{paddingTop:"10px"}}> <strong style={{color:"white"}}>Tech Stack</strong>{item.text1}</p>
+              {/* <p>{item.text}</p>
+              <p style={{paddingTop:"10px"}}> <strong style={{color:"white"}}>Tech Stack</strong>{item.text1}</p> */}
             </div>
           </div>
         );
