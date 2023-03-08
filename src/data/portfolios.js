@@ -29,7 +29,7 @@ const portfolios = [
         category: 'Web Application',
         image: p3,
         link1: 'https://github.com/vishalpatil12014017/Discoveryplus.in',
-        link2: 'https://discoveryplusclone-vishal-patil.vercel.app/',
+        link2: 'https://discoveryplusclone-in-vishal-patil.vercel.app/',
         title: 'Discovery+',
         text: 'In this application we have used React.js and Bootstrap. Additionally, we are using Express.js for the backend.',
         text1: " : React Js | MUI | Bootstrap | MongoDb | Express Js"
