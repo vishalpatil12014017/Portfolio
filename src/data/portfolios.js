@@ -19,7 +19,7 @@ const portfolios = [
         category: 'Web Application',
         image: p2,
         link1: 'https://github.com/vishalpatil12014017/TravelTech',
-        // link2: 'https://aazadi-traveltech.vercel.app/',
+        // link2: 'https://aazadi-traveltech.vercel.app/'
         title: 'TravelTech',
         text: 'We used React Js and Bootstrap to build this application. We used Express Js to make the backend for this application.',
         text1: " : React Js | Bootstrap | MongoDb | Express Js"
