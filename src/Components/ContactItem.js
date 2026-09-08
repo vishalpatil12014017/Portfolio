@@ -8,7 +8,7 @@ function ContactItem({title, icon, cont1, cont2}) {
             <div className="left-content">
                 {
                     icon
-                }
+                } 
             </div>
             <div className="right-content">
                 <h6>{title}</h6>
