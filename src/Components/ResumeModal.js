@@ -6,6 +6,8 @@ import { personalDetails } from "../data/portfolioData";
 const ResumeModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
+  const resumePdfUrl = `${process.env.PUBLIC_URL || ""}/Vishal_Patil.pdf`;
+
   return (
     <ModalBackdrop onClick={onClose}>
       <ModalContainer onClick={(e) => e.stopPropagation()}>
@@ -16,7 +18,7 @@ const ResumeModal = ({ isOpen, onClose }) => {
           </div>
           <div className="modal-actions">
             <a
-              href="/Vishal_Patil.pdf"
+              href={resumePdfUrl}
               download="Vishal_Patil_Resume.pdf"
               className="action-btn download"
             >
@@ -24,7 +26,7 @@ const ResumeModal = ({ isOpen, onClose }) => {
               <span>Download PDF</span>
             </a>
             <a
-              href="/Vishal_Patil.pdf"
+              href={resumePdfUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="action-btn external"
@@ -56,7 +58,7 @@ const ResumeModal = ({ isOpen, onClose }) => {
 
         <div className="modal-body">
           <object
-            data="/Vishal_Patil.pdf#toolbar=1&navpanes=0&scrollbar=1"
+            data={`${resumePdfUrl}#toolbar=1&navpanes=0&scrollbar=1`}
             type="application/pdf"
             width="100%"
             height="100%"
@@ -64,7 +66,7 @@ const ResumeModal = ({ isOpen, onClose }) => {
             <div className="fallback-container">
               <p>Your browser is unable to display the PDF preview directly.</p>
               <a
-                href="/Vishal_Patil.pdf"
+                href={resumePdfUrl}
                 download="Vishal_Patil_Resume.pdf"
                 className="action-btn download"
               >

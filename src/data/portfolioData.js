@@ -26,7 +26,7 @@ export const personalDetails = {
   linkedin: "https://linkedin.com/in/vishal-patil17",
   github: "https://github.com/vishalpatil12014017",
   medium: "https://medium.com/@Vishal_Patil",
-  resumeUrl: "/Vishal_Patil.pdf",
+  resumeUrl: `${process.env.PUBLIC_URL || ""}/Vishal_Patil.pdf`,
   summary:
     "Performance-driven Software Engineer with 4+ years of experience architecting scalable backend systems, AI-powered automation, and microservices for high-growth healthcare-tech platforms. Deep expertise in Node.js, MySQL, and AWS, spanning enterprise API gateway design, real-time conversational voice AI, multi-provider IVR systems, and payment orchestration — with a consistent record of delivering high-uptime, high-scale production systems.",
   status: "Available for Lead Backend & AI Engineering Roles",
