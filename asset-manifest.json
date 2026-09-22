@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.39621ac9.chunk.css",
+    "main.js": "/Portfolio/static/js/main.c8bdeb86.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.c8bdeb86.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.d99717cb.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.d99717cb.js.map",
+    "static/css/2.68b64559.chunk.css": "/Portfolio/static/css/2.68b64559.chunk.css",
+    "static/js/2.bb2b0ca9.chunk.js": "/Portfolio/static/js/2.bb2b0ca9.chunk.js",
+    "static/js/2.bb2b0ca9.chunk.js.map": "/Portfolio/static/js/2.bb2b0ca9.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/2.68b64559.chunk.css.map": "/Portfolio/static/css/2.68b64559.chunk.css.map",
+    "static/css/main.39621ac9.chunk.css.map": "/Portfolio/static/css/main.39621ac9.chunk.css.map",
+    "static/js/2.bb2b0ca9.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.bb2b0ca9.chunk.js.LICENSE.txt",
+    "static/media/1.500139e5.png": "/Portfolio/static/media/1.500139e5.png",
+    "static/media/2.21b80733.png": "/Portfolio/static/media/2.21b80733.png",
+    "static/media/3.59b9ed98.png": "/Portfolio/static/media/3.59b9ed98.png",
+    "static/media/Traveltech.21b80733.png": "/Portfolio/static/media/Traveltech.21b80733.png",
+    "static/media/avatar.82e8ae26.png": "/Portfolio/static/media/avatar.82e8ae26.png",
+    "static/media/mysql.91459b13.jpeg": "/Portfolio/static/media/mysql.91459b13.jpeg",
+    "static/media/mysqlPartition.a1805ab1.png": "/Portfolio/static/media/mysqlPartition.a1805ab1.png",
+    "static/media/sql.605cb3fe.jpeg": "/Portfolio/static/media/sql.605cb3fe.jpeg",
+    "static/media/zoomcar.500139e5.png": "/Portfolio/static/media/zoomcar.500139e5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d99717cb.js",
+    "static/css/2.68b64559.chunk.css",
+    "static/js/2.bb2b0ca9.chunk.js",
+    "static/css/main.39621ac9.chunk.css",
+    "static/js/main.c8bdeb86.chunk.js"
+  ]
+}
